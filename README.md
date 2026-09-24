@@ -13,7 +13,7 @@ Run household Monte Carlo simulations from Claude. Describe your situation in pl
 - **Claude Code / Cowork**: install `wealthstoryline` from the plugin directory.
 - **Any Claude app**: Settings → Connectors → Add custom connector → `https://wealthstoryline.com/mcp`
 
-No account is needed for the free plan.
+No account is needed. **Early access:** all stable modules of the website's business plan are currently free.
 
 ## Example prompts
 1. "I'm 35 in Taiwan, earn 900,000 a year, spend 600,000, have 1.5 million saved and want to retire at 65. What's the chance I have 15 million in 20 years?"
@@ -23,15 +23,15 @@ No account is needed for the free plan.
 ## Tools
 | Tool | What it does |
 |---|---|
-| `run_simulation` | Runs the free 3,000-path simulation |
+| `run_simulation` | Runs a 3,000-path simulation, including storylines (paths grouped by life events) |
 | `get_simulation_result` | Fetches a result that was still running |
 | `get_country_defaults` | Shows a country's default macro assumptions |
-| `explain_methodology` | Explains the model, free vs paid modules and limitations |
+| `explain_methodology` | Explains the model, available modules and limitations |
 
 All tools are read-only.
 
-## Free plan limits
-One card per module (one income, one expense, one loan…), 3,000 paths, no mortgage or real-estate modelling. More modules and 10,000 paths are available on [wealthstoryline.com](https://wealthstoryline.com).
+## What is included (early access)
+Family members, liquid assets, income and expense curves, extra income/expense streams, one-off income/expense events, basic and advanced investment, real estate, mortgages and other loans, other assets, and storylines. 3,000 paths per run. Insurance and income-tax modules are not offered yet. 10,000 paths, saved plans, PDF reports and advisor features are on [wealthstoryline.com](https://wealthstoryline.com). Early-access terms may change later.
 
 ## Privacy
 Only the numbers needed for the simulation are stored; names and custom labels are discarded. Anonymous simulations are deleted after 30 days. See the [privacy policy](https://wealthstoryline.com/privacy.html).
