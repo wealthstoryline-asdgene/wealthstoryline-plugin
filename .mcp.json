@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wealthstoryline": {
+      "type": "http",
+      "url": "https://wealthstoryline.com/mcp"
+    }
+  }
+}
