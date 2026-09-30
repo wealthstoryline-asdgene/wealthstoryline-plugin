@@ -24,7 +24,7 @@ Only fill what the user actually told you or clearly implied. If a value is unkn
 
 ## Explain the result
 - Lead with the probability of reaching the goal, then the median path, then the worst 10% case. Trajectory amounts are inflation-adjusted to today's money.
-- Storylines: describe the two or three largest groups in plain words, e.g. "In about 12% of futures you would have to sell the house around year 8". Storyline amounts are nominal (not inflation-adjusted).
+- Storylines: describe the two or three largest groups in plain words, e.g. "In about 12% of futures you would have to sell the house around year 8". Storyline amounts are in today's money (inflation-adjusted), the same unit as the trajectory.
 - Model limits to mention when relevant: a forced sale sells every property and adds no rent afterwards (optimistic); custom assets in advanced investment vary between runs, so quote a range.
 - Always relay every item in `input_warnings` and say which assumptions were defaults (especially the investment return).
 - Offer one or two what-if variations (lower return, later retirement, smaller house, lower spending) and rerun if the user agrees.
