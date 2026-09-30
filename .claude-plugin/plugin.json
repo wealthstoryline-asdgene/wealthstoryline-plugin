@@ -1,7 +1,7 @@
 {
   "name": "wealthstoryline",
-  "version": "0.2.1",
-  "description": "Household financial Monte Carlo simulation for Claude: income, expenses, savings, investments, real estate, mortgages and loans under random inflation, salary growth, interest rates and market returns, with 'storylines' of likely life paths. Supports Taiwan, Japan, US, China and Canada.",
+  "version": "0.2.2",
+  "description": "Household financial Monte Carlo simulation for Claude: income, expenses, savings, investments, real estate, mortgages and loans under random inflation, salary growth, interest rates and market returns, with 'storylines' of likely life paths. Supports about 190 countries (curated data for Taiwan, Japan, US, China and Canada).",
   "author": {
     "name": "WealthStoryLine",
     "url": "https://wealthstoryline.com"
