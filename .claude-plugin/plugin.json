@@ -1,6 +1,6 @@
 {
   "name": "wealthstoryline",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Household financial Monte Carlo simulation for Claude: income, expenses, savings, investments, real estate, mortgages and loans under random inflation, salary growth, interest rates and market returns, with 'storylines' of likely life paths. Supports Taiwan, Japan, US, China and Canada.",
   "author": {
     "name": "WealthStoryLine",
@@ -10,12 +10,18 @@
   "repository": "https://github.com/wealthstoryline-asdgene/wealthstoryline-plugin",
   "license": "MIT",
   "keywords": [
+    "mcp",
     "finance",
+    "personal-finance",
     "retirement",
     "monte-carlo",
     "financial-planning",
     "wealth",
+    "mortgage",
     "taiwan",
-    "japan"
+    "japan",
+    "us",
+    "china",
+    "canada"
   ]
 }
