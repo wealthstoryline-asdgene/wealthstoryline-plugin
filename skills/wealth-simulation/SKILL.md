@@ -11,7 +11,7 @@ The user wants a probabilistic answer about their household finances: "Can I ret
 Early access: every stable module of the website's business plan is currently free and anonymous (real estate, mortgages, multiple income/expense streams, income/expense events, advanced investment, other assets, storylines). Call `explain_methodology` if you need the current list.
 
 ## Gather inputs (ask only for what is missing)
-1. Age and country (ISO code such as TW, US, DE, GB; about 190 countries). Amounts are in that country's currency, full units. TW, JP, US, CN and CA have curated assumptions; for other countries mention that the defaults are World Bank/BIS averages and use `environment` if the user knows better local numbers.
+1. Age and country (ISO code such as TW, US, DE, GB; about 190 countries). Amounts are in that country's currency, full units. TW, JP, US, CN and CA have curated assumptions; for other countries mention that the defaults are official-statistics averages (get_country_defaults shows each source and how many years) and use `environment` if the user knows better local numbers.
 2. Savings / liquid assets today.
 3. Household income and planned retirement age; pension after retirement if any. Extra income streams (rent, side business) and one-off income events (bonus, inheritance) go in their own modules.
 4. Living expenses; extra expense streams (children's education, care) and one-off expense events (car, wedding).

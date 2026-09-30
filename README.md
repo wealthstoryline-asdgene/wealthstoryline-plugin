@@ -14,7 +14,7 @@ https://wealthstoryline.com/mcp
 - Chance of running out of money
 - Inflation-adjusted net worth over time for the top 10%, middle 50%, worst 10% and worst 1% of outcomes
 - Storylines: futures grouped by life events, e.g. "in 12% of futures you would have to sell the house around year 8"
-- Built-in macro assumptions for about 190 countries (2004–2024 history): curated values for Taiwan, Japan, the US, China and Canada; World Bank/BIS averages for the rest, which you can override
+- Built-in macro assumptions for about 190 countries (2004–2024 history): curated values for Taiwan, Japan, the US, China and Canada; 2005–2024 official statistics for the rest (World Bank, BIS, IMF, OECD and ILO wage data), which you can override
 
 ## Install
 
